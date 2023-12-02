@@ -5,9 +5,9 @@ body {
   box-sizing: border-box;
 }
 
-div {
+/* div {
   border: 1px solid red;
-}
+} */
 
 h1,
 h2,
@@ -32,8 +32,7 @@ a {
 }
 
 .hero,
-footer {
-  padding: 0 200px;
+.footer {
   background-color: #1F2937;
 }
 
@@ -69,6 +68,10 @@ button {
 }
 
 /* HERO */
+
+.hero {
+  padding: 0 10em;
+}
 
 .navigation {
   display: flex;
@@ -178,10 +181,6 @@ button {
 
 /* ACTION */
 
-.action {
-  
-}
-
 .action-container{
   display: flex;
   background-color: #3882F6;
@@ -207,4 +206,16 @@ button {
 
 .action-button {
   border: 2px solid #F9FAF8;
+}
+
+/* FOOTER */
+
+.footer {
+  text-align: center;
+}
+
+.footer-text {
+  padding: 24px 0;
+  color: #F9FAF8;
+  font-size: 12px;
 }
